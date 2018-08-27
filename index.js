@@ -14,4 +14,13 @@ function distanceFromHqInFeet(address) {
   return distance 
 }
 
-function distanceTravelledInFeet(startAddress)
+function distanceTravelledInFeet(startAddress, endAddress) {
+  if (endAddress > startAddress) { 
+    distance = (endAddress - startAddress) * 264
+  }
+  else {
+    distance = (startAddress - endAddress) * 264 
+  }
+  
+  return distance 
+}
