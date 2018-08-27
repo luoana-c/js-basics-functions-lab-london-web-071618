@@ -8,3 +8,5 @@ function distanceFromHqInBlocks(address) {
   }
   return distance
 }
+
+function distanceFromHqInFeet()
