@@ -13,4 +13,5 @@ function distanceFromHqInFeet(address) {
   if (address > 42) {
     distance = distanceFromHqInBlocks(address) * 264
   }
+  return distance 
 }
